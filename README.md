@@ -1,27 +1,39 @@
-<br/>
-<br/>
+# frontend
 
-<p align="center">
-<img src="https://files.cloudtype.io/logo/cloudtype-logo-horizontal-black.png" width="50%" alt="Cloudtype"/>
-</p>
+This template should help get you started developing with Vue 3 in Vite.
 
-<br/>
-<br/>
+## Recommended IDE Setup
 
-# Vue 3
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-프론트엔드 JavaScript 프레임워크 Vue 3 템플릿입니다.
+## Type Support for `.vue` Imports in TS
 
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
 
-## 💬 문제해결
+## Customize configuration
 
-- [클라우드타입 Docs](https://docs.cloudtype.io/)
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-- [클라우드타입 FAQ](https://help.cloudtype.io/guide/faq)
+## Project Setup
 
-- [Discord](https://discord.gg/U7HX4BA6hu)
+```sh
+npm install
+```
 
+### Compile and Hot-Reload for Development
 
-## 📄 License
+```sh
+npm run dev
+```
 
-[MIT](https://github.com/vuejs/core/blob/main/LICENSE)
+### Type-Check, Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```
